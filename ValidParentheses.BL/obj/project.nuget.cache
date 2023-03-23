@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tJc7sSSTOUSs4x9TCYimnEhPlHydUyizqDi1cMMVPE1bd79VLQpl36IBbNKfPvlgmMbJf9iFT9+rgZfVsPMrNA==",
+  "dgSpecHash": "sutW9gq6SliQlU78PSN27a8d5tmNePNiqpmqAjEtozyNDVtMmyCJzS6UoNB8oLP2miCDhXYqzNuYQKy+PPAWVA==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\Kata\\ValidParentheses\\ValidParentheses\\ValidParentheses.BL\\ValidParentheses.BL.csproj",
+  "projectFilePath": "D:\\Dev\\Kata\\ValidParentheses\\ValidParentheses.BL\\ValidParentheses.BL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
