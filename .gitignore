@@ -1,5 +1,5 @@
 .vs
 ValidParentheses.BL/bin
-ValidParentheses.Test/obj
-ValidParentheses.BL/bin
+ValidParentheses.Test/bin
+ValidParentheses.BL/obj
 ValidParentheses.Test/obj
