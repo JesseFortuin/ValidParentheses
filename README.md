@@ -13,3 +13,30 @@ Empty strings are considered balanced (and therefore valid), and will be tested.
 For languages with mutable strings, the inputs should not be mutated.
 
 Protip: If you are trying to figure out why a string of parentheses is invalid, paste the parentheses into the code editor, and let the code highlighting show you!
+
+
+---------------------------------------------------------------------------------------------------
+
+Solutions
+
+
+    while ((str = str.Replace("()", "")).Contains("()"));
+    return str.Length == 0;
+-------
+
+        int open = 0;
+        foreach(char paren in str)
+        {
+            open += paren == '(' ? 1 : -1;
+            if(open < 0)
+            {
+                return false;
+            }
+        }
+        return open == 0;
+-----
+
+
+
+
+
